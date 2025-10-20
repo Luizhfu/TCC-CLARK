@@ -6,16 +6,14 @@
 .logo{
     border-radius: 100px;
     height: 200px;
-    background-color: rgb(37, 36, 36);
+    background-color: #111518;
 }
 
-*{
-    background-color: rgb(0, 0, 0);
-}
+
 
 .entrada{
 margin-top: 400px;
-background-color: rgb(37, 36, 36);
+background-color: #111518;
 border-radius: 50px;
 height: 50px;
 display: flex;
@@ -35,13 +33,85 @@ padding: 30px;
 color: yellow;
 background-color: transparent;
 text-decoration: none;
-padding-left: 1490px;
-
+align-content: end;
+justify-content: center;
+margin: auto;
 }
 
-.links2{
-padding: 30px;
+.links{
+padding: 15px;
 color: yellow;
 text-decoration: none;
 }
+.links{
+border-radius: 10px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+background:none
+}
 
+.Bem-vindo{
+    background-color: #111518;
+    margin: 30px;
+    margin-top: 70px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-radius: 30px;
+    color: yellow;
+}
+
+.Imagem-cachorro-juiz{
+    border-radius: 30px;
+}
+
+.circleYellow{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    height: 300px;
+    border-radius: 100%;
+    width: 300px;
+    margin: auto;
+    z-index: 1;
+    margin-top: -280px;
+    margin-right: 520px;
+    
+}
+
+.circleYellowPequeno{
+    background-color: rgb(170, 170, 2);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+    z-index: 0;
+    margin-top: -280px;
+    margin-right: 440px;
+}
+
+.circleYellowPequeno2{
+    background-color: rgb(170, 170, 2);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.circleYellowPequeno3{
+    background-color: rgb(170, 170, 2);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.circleYellowPequeno4{
+    background-color: rgb(170, 170, 2);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.circleYellowPequeno5{
+    background-color: rgb(170, 170, 2);
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}

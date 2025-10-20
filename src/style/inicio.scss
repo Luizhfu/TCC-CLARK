@@ -1,26 +1,16 @@
-.container-inicio{
-    text-align: center;
-    margin-top: 300px;
-}
-
-.logo{
-    border-radius: 100px;
-    height: 200px;
-    background-color: #111518;
-}
-
-
-
 .entrada{
-margin-top: 400px;
-background-color: #111518;
-border-radius: 50px;
-height: 50px;
 display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
+background-color:#111518;
+border-radius: 20px;
+padding: 5px;
+}
 
+*{
+margin: 0;
+}
+
+.Clark{
+background-color: black;
 }
 
 .logo2{
@@ -93,6 +83,10 @@ background:none
     height: 90px;
     width: 90px;
     border-radius: 100%;
+    display: flex ;
+    margin: auto;
+    z-index: 0;
+    margin-top: -350px;
 }
 
 .circleYellowPequeno3{
@@ -100,6 +94,10 @@ background:none
     height: 90px;
     width: 90px;
     border-radius: 100%;
+    display: flex;
+    z-index: 0;
+    margin-left: 250px;
+    margin-bottom: 250px;
 }
 
 .circleYellowPequeno4{

@@ -145,3 +145,25 @@ margin: -30px;
     margin-left: 40px;
 }
 
+
+.intermediario{
+    display: flex;
+    height: 200px;
+    background-color: yellow;
+    width: 500px;
+}
+
+.intermediario img{
+    height: 100px;
+}
+
+.interm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.viado{
+    display: flex;
+    
+}

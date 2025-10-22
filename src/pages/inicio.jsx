@@ -18,7 +18,7 @@ export default function Inicio() {
 </div>
 
         <div className='Bem-vindo'>
-          <h1>Bem Vindo ao Clark</h1>
+          <h1 >Bem Vindo ao Clark</h1>
 <img className='Imagem-cachorro-juiz' height="450px" src="/src/assets/images/download (6).jpeg" alt="" />
 
 <div className='circleYellow'></div>

@@ -4,41 +4,54 @@ background-color:#111518;
 border-radius: 20px;
 padding: 5px;
 }
-
 *{
 margin: 0;
 }
 
 .Clark{
-background-color: black;
+background-color: rgb(0, 0, 0);
+}
+
+.lg{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+margin-left: 40px;
 }
 
 .logo2{
-height: 100px;
+height: 150px;
 background-color: transparent;
+margin: -30px;
 }
 
 .links{
-padding: 30px;
-color: yellow;
-background-color: transparent;
-text-decoration: none;
-align-content: end;
-justify-content: center;
-margin: auto;
-}
-
-.links{
-padding: 15px;
-color: yellow;
-text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  color: yellow;
+  background-color: transparent;
+  font-size: 200%;
+  gap: 20px;
+  padding: 20px;
 }
 .links{
-border-radius: 10px;
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-background:none
+    width: 100%;
+}
+.links a{
+    text-decoration: none;
+    color: yellow;
+    background-color: rgb(34, 33, 33);
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.411);
+
 }
 
+.Bem-vindo h1{
+    font-size: 50px;
+    
+}
 .Bem-vindo{
     background-color: #111518;
     margin: 30px;
@@ -47,11 +60,73 @@ background:none
     padding-bottom: 150px;
     border-radius: 30px;
     color: yellow;
+    text-align: center;
 }
 
+
 .Imagem-cachorro-juiz{
-    border-radius: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin-top: 35px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .circleYellow{
     display: flex;
@@ -63,8 +138,8 @@ background:none
     z-index: 1;
     margin-top: -280px;
     margin-right: 520px;
-    
 }
+
 
 .circleYellowPequeno{
     background-color: rgb(170, 170, 2);
@@ -113,3 +188,4 @@ background:none
     width: 90px;
     border-radius: 100%;
 }
+

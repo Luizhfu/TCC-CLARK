@@ -28,16 +28,20 @@ export default function Inicio() {
 <div className='circleYellowPequeno4'></div>
 <div className='circleYellowPequeno5'></div>
         </div>
+<div className='sobre'>
 
 <div className='intermediario'>
 <div className='interm'>
 <h1>Intermediario</h1>
+
 <h2>Low resolution is no fun!
 Got a blurry photo or a pixelated mess?</h2>
+
 <h3> Love the memories but hate the quality?</h3>
+
 <h4>We’ve all been there.</h4>
 </div>
-<div className='viado'>
+<div className='divImagem'>
 <img src="/src/assets/images/Rectangle 28.png" alt="" />
 </div>
 </div>
@@ -49,7 +53,7 @@ Got a blurry photo or a pixelated mess?</h2>
 <div className='empresa'>
   <img src="/src/assets/images/Rectangle 32.png" alt="" />
 </div>
-
+</div>
       </div>
     
 

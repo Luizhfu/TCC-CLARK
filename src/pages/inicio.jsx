@@ -1,63 +1,40 @@
-import '../style/inicio.scss'
+
+import "../style/inicio.scss";
+import { Link } from "react-router";
 
 export default function Inicio() {
+    return (
+        <div className="Clark">
+            <div className="Bem-vindo">
+                <h1 className="inria-serif-bold-italic">Bem Vindo ao Clark</h1>
+                <img
+                    className="Imagem-Entrada"
+                    height="450px"
+                    src="/src/assets/images/download (6).jpeg"
+                    alt=""
+                />
 
+                <div className="circleYellow"></div>
+                <div className="circulo YP p1"></div>
+                <div className="triangulo YP p2"></div>
+                <div className="hexagono YP p3"></div>
+                <div className="circulo YP p4"></div>
+                <div className="triangulo YP p5"></div>
 
-  return (
-<div className='Clark'>
+                <div className="div-btn">
+                    <button className="inria-serif-regular btn">
+                        <Link to={"#"}>ENTRAR</Link>
+                    </button>
 
-<div className='entrada'>
-  <div className='lg'>
-<img className='logo2' src="/src/assets/images/Captura_de_tela_2025-10-14_214454-removebg-preview.png" alt="" />
-  </div>
-<div className='links'>
-<a href="../pages/entrar.jsx">Entrar</a>
-<a href="../pages/registrar.jsx">Resgistrar</a>
-</div>
-
-</div>
-
-        <div className='Bem-vindo'>
-          <h1 >Bem Vindo ao Clark</h1>
-<img className='Imagem-cachorro-juiz' height="450px" src="/src/assets/images/download (6).jpeg" alt="" />
-
-<div className='circleYellow'></div>
-<div className='circleYellowPequeno'></div>
-<div className='circleYellowPequeno2'></div>
-<div className='circleYellowPequeno3'></div>
-<div className='circleYellowPequeno4'></div>
-<div className='circleYellowPequeno5'></div>
+                    <button className="inria-serif-regular btn">
+                        <Link to={"./escolha"}>CADASTRAR</Link>
+                    </button>
+                </div>
+            </div>
         </div>
-<div className='sobre'>
-
-<div className='intermediario'>
-<div className='interm'>
-<h1>Intermediario</h1>
-
-<h2>Low resolution is no fun!
-Got a blurry photo or a pixelated mess?</h2>
-
-<h3> Love the memories but hate the quality?</h3>
-
-<h4>We’ve all been there.</h4>
-</div>
-<div className='divImagem'>
-<img src="/src/assets/images/Rectangle 28.png" alt="" />
-</div>
-</div>
-
-<div className='trabalhador'>
-  <img src="/src/assets/images/Rectangle 31.png" alt="" />
-</div>
-
-<div className='empresa'>
-  <img src="/src/assets/images/Rectangle 32.png" alt="" />
-</div>
-</div>
-      </div>
-    
-
-  )
+    );
 }
+
+
 
 
